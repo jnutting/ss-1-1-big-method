@@ -21,6 +21,8 @@
 		04348B04195023DD00AE9AEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04348AE6195023DD00AE9AEE /* UIKit.framework */; };
 		04348B0C195023DD00AE9AEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04348B0A195023DD00AE9AEE /* InfoPlist.strings */; };
 		04348B0E195023DD00AE9AEE /* BigMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04348B0D195023DD00AE9AEE /* BigMethodTests.m */; };
+		04348B191950240500AE9AEE /* TBTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 04348B181950240500AE9AEE /* TBTPerson.m */; };
+		04348B1A1950240500AE9AEE /* TBTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 04348B181950240500AE9AEE /* TBTPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		04348B09195023DD00AE9AEE /* BigMethodTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BigMethodTests-Info.plist"; sourceTree = "<group>"; };
 		04348B0B195023DD00AE9AEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04348B0D195023DD00AE9AEE /* BigMethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigMethodTests.m; sourceTree = "<group>"; };
+		04348B171950240500AE9AEE /* TBTPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTPerson.h; sourceTree = "<group>"; };
+		04348B181950240500AE9AEE /* TBTPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				04348AF1195023DD00AE9AEE /* TBTAppDelegate.h */,
 				04348AF2195023DD00AE9AEE /* TBTAppDelegate.m */,
 				04348AF4195023DD00AE9AEE /* Main.storyboard */,
+				04348B171950240500AE9AEE /* TBTPerson.h */,
+				04348B181950240500AE9AEE /* TBTPerson.m */,
 				04348AF7195023DD00AE9AEE /* TBTViewController.h */,
 				04348AF8195023DD00AE9AEE /* TBTViewController.m */,
 				04348AFA195023DD00AE9AEE /* Images.xcassets */,
@@ -253,6 +259,7 @@
 				04348AEF195023DD00AE9AEE /* main.m in Sources */,
 				04348AF3195023DD00AE9AEE /* TBTAppDelegate.m in Sources */,
 				04348AF9195023DD00AE9AEE /* TBTViewController.m in Sources */,
+				04348B191950240500AE9AEE /* TBTPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04348B0E195023DD00AE9AEE /* BigMethodTests.m in Sources */,
+				04348B1A1950240500AE9AEE /* TBTPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +467,7 @@
 				04348B13195023DD00AE9AEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04348B14195023DD00AE9AEE /* Build configuration list for PBXNativeTarget "BigMethodTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +476,7 @@
 				04348B16195023DD00AE9AEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
