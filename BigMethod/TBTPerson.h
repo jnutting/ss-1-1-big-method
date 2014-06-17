@@ -27,6 +27,7 @@
                       streetAddress:(NSString *)streetAddress
                                city:(NSString *)city
                          postalCode:(NSString *)postalCode
+                            country:(NSString *)country
                        emailAddress:(NSString *)emailAddress
                     telephoneNumber:(NSString *)telephoneNumber
                           birthDate:(NSDate *)birthDate;

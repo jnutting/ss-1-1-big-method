@@ -16,6 +16,7 @@
                       streetAddress:(NSString *)streetAddress
                                city:(NSString *)city
                          postalCode:(NSString *)postalCode
+                            country:(NSString *)country
                        emailAddress:(NSString *)emailAddress
                     telephoneNumber:(NSString *)telephoneNumber
                           birthDate:(NSDate *)birthDate {
@@ -26,6 +27,7 @@
     p.streetAddress = streetAddress;
     p.city = city;
     p.postalCode = postalCode;
+    p.country = country;
     p.emailAddress = emailAddress;
     p.telephoneNumber = telephoneNumber;
     p.birthDate = birthDate;
@@ -42,6 +44,7 @@
                                        streetAddress:@""
                                                 city:@"Dallas"
                                           postalCode:@""
+                                             country:@"USA"
                                         emailAddress:@""
                                      telephoneNumber:@""
                                            birthDate:nil]];
@@ -52,6 +55,7 @@
                                        streetAddress:@""
                                                 city:@""
                                           postalCode:@""
+                                             country:@""
                                         emailAddress:@""
                                      telephoneNumber:@""
                                            birthDate:[NSDate date]]];
@@ -62,19 +66,11 @@
                                        streetAddress:@""
                                                 city:@""
                                           postalCode:@""
+                                             country:@"Sweden"
                                         emailAddress:@""
                                      telephoneNumber:@""
                                            birthDate:[NSDate distantPast]]];
     
-    [people addObject:[TBTPerson personWithFirstName:@"Unix"
-                                            lastName:@"Epoch"
-                                          occupation:@""
-                                       streetAddress:@""
-                                                city:@""
-                                          postalCode:@""
-                                        emailAddress:@""
-                                     telephoneNumber:@""
-                                           birthDate:[NSDate dateWithTimeIntervalSince1970:0]]];
     return people;
 }
 
