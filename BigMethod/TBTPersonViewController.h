@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TBTViewController : UIViewController
+@interface TBTPersonViewController : UIViewController
 
 @end

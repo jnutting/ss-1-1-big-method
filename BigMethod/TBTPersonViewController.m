@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 thoughtbot. All rights reserved.
 //
 
-#import "TBTViewController.h"
+#import "TBTPersonViewController.h"
 #import "TBTPerson.h"
 
-@interface TBTViewController ()
+@interface TBTPersonViewController ()
 
 @property (strong, nonatomic) TBTPerson *person;
 
@@ -26,15 +26,34 @@
 
 @end
 
-@implementation TBTViewController
+@implementation TBTPersonViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
+    [self getResources];
+    [self updateDisplay];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+#pragma mark Internals
+
+- (void)getResources {
     self.person = [TBTPerson somePeople].firstObject;
-    
+}
+
+- (void)updateDisplay {
     self.firstNameTF.text = self.person.firstName;
     self.lastNameTF.text = self.person.lastName;
     self.occupationTF.text = self.person.occupation;
@@ -45,12 +64,6 @@
     self.emailAddress.text = self.person.emailAddress;
     self.telephoneTF.text = self.person.telephoneNumber;
     self.birthDateTF.text = [self.person.birthDate description];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

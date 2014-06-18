@@ -14,7 +14,7 @@
 		04348AEF195023DD00AE9AEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04348AEE195023DD00AE9AEE /* main.m */; };
 		04348AF3195023DD00AE9AEE /* TBTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04348AF2195023DD00AE9AEE /* TBTAppDelegate.m */; };
 		04348AF6195023DD00AE9AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04348AF4195023DD00AE9AEE /* Main.storyboard */; };
-		04348AF9195023DD00AE9AEE /* TBTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04348AF8195023DD00AE9AEE /* TBTViewController.m */; };
+		04348AF9195023DD00AE9AEE /* TBTPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04348AF8195023DD00AE9AEE /* TBTPersonViewController.m */; };
 		04348AFB195023DD00AE9AEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04348AFA195023DD00AE9AEE /* Images.xcassets */; };
 		04348B02195023DD00AE9AEE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04348B01195023DD00AE9AEE /* XCTest.framework */; };
 		04348B03195023DD00AE9AEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04348AE2195023DD00AE9AEE /* Foundation.framework */; };
@@ -47,8 +47,8 @@
 		04348AF1195023DD00AE9AEE /* TBTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTAppDelegate.h; sourceTree = "<group>"; };
 		04348AF2195023DD00AE9AEE /* TBTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTAppDelegate.m; sourceTree = "<group>"; };
 		04348AF5195023DD00AE9AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04348AF7195023DD00AE9AEE /* TBTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTViewController.h; sourceTree = "<group>"; };
-		04348AF8195023DD00AE9AEE /* TBTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTViewController.m; sourceTree = "<group>"; };
+		04348AF7195023DD00AE9AEE /* TBTPersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTPersonViewController.h; sourceTree = "<group>"; };
+		04348AF8195023DD00AE9AEE /* TBTPersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTPersonViewController.m; sourceTree = "<group>"; };
 		04348AFA195023DD00AE9AEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04348B00195023DD00AE9AEE /* BigMethodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigMethodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04348B01195023DD00AE9AEE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -121,8 +121,8 @@
 				04348AF4195023DD00AE9AEE /* Main.storyboard */,
 				04348B171950240500AE9AEE /* TBTPerson.h */,
 				04348B181950240500AE9AEE /* TBTPerson.m */,
-				04348AF7195023DD00AE9AEE /* TBTViewController.h */,
-				04348AF8195023DD00AE9AEE /* TBTViewController.m */,
+				04348AF7195023DD00AE9AEE /* TBTPersonViewController.h */,
+				04348AF8195023DD00AE9AEE /* TBTPersonViewController.m */,
 				04348AFA195023DD00AE9AEE /* Images.xcassets */,
 				04348AE9195023DD00AE9AEE /* Supporting Files */,
 			);
@@ -258,7 +258,7 @@
 			files = (
 				04348AEF195023DD00AE9AEE /* main.m in Sources */,
 				04348AF3195023DD00AE9AEE /* TBTAppDelegate.m in Sources */,
-				04348AF9195023DD00AE9AEE /* TBTViewController.m in Sources */,
+				04348AF9195023DD00AE9AEE /* TBTPersonViewController.m in Sources */,
 				04348B191950240500AE9AEE /* TBTPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
